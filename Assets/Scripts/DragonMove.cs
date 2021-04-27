@@ -2,34 +2,69 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class DragonMove : MonoBehaviour
 {
-    // Start is called before the first frame update
-    
-    public Vector2 speed = new Vector2(10, 10); //скорость объекта
-    public Vector2 direction= new Vector2(-1, 0); //направление движения
+    public List<Transform> points;
+    public int nextID;
+    int idChangeValue = 1;
 
-    private Vector2 movement;
-    private Rigidbody2D rb;
-    //void Start()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ////public Vector2 speed = new Vector2(1, 1); //скорость объекта
+    //[SerializeField] private float speed; //скорость объекта
+    //[SerializeField] private Vector3[] positions;
+    //private int index;
+    //private Vector2 movement;
+    //private Rigidbody2D rb;
+    //public bool isRightSide = true;
+    //private SpriteRenderer sprite;
+
+    //void Awake()
     //{
+    //    rb = GetComponent<Rigidbody2D>();
+    //}
+
+    //void Update()
+    //{
+    //    if (transform.position == positions[index])
+    //    {
+    //        if (index == positions.Length - 1)
+    //        {
+    //            index = 0;
+    //        }
+    //        else
+    //        {
+    //            index++;
+    //        }
+    //    }
     //}
     
-    void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
+    //void FixedUpdate()
+    //{
+    //    rb.velocity = movement; //применить движение к RigidBody
+    //}
 
-    // Update is called once per frame
-    void Update()
-    {
-        movement = new Vector2(speed.x * direction.x, 
-            speed.y * direction.y); // перемещение
-        
-    }
-    
-    void FixedUpdate()
-    {
-        rb.velocity = movement; //применить движение к RigidBody
-    }
+    //void Spin()
+    //{
+    //    isRightSide = !isRightSide;
+    //    transform.localScale = new Vector3(transform.localScale.x * -1, 1f, 1f);
+    //}
 }
