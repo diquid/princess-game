@@ -2101,9 +2101,21 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
+<<<<<<< HEAD
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0.6799927, y: 7.4799805}
   m_SizeDelta: {x: -6.65, y: 199.45}
+=======
+<<<<<<< HEAD
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 355.36, y: 95.705}
+  m_SizeDelta: {x: 710.73, y: 399.79}
+=======
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.6799927, y: 7.4799805}
+  m_SizeDelta: {x: -6.65, y: 199.45}
+>>>>>>> 1c62c91c0c2e711758871f718dff459eeee9f5a9
+>>>>>>> dilya
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &597829964
 MonoBehaviour:
