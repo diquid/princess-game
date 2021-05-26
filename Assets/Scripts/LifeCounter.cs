@@ -25,10 +25,22 @@ public class LifeCounter : MonoBehaviour
         //}
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Backspace))
-            LoseLife();
-    }
+    //private void Update()
+    //{
+    //    //if (Input.GetKeyDown(KeyCode.Backspace))
+    //    //    LoseLife();
 
+    //    if (Input.GetKeyDown(KeyCode.UpArrow))
+    //    {
+    //        OnCollisionEnter2D();
+    //    }
+    //}
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "Dragon")
+        {
+            LoseLife();
+        }
+    }
 }

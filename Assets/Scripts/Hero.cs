@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Hero : MonoBehaviour
 {
@@ -15,6 +16,18 @@ public class Hero : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponentInChildren<SpriteRenderer>();
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.name == "Castle" && SceneManager.GetActiveScene().buildIndex != 6)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else if (collision.gameObject.name == "Castle" && SceneManager.GetActiveScene().buildIndex == 6)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
+        }
     }
 
     private void FixedUpdate()

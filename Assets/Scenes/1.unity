@@ -473,7 +473,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 131.25, y: -22.570004}
-  m_SizeDelta: {x: 37.5, y: 45.14}
+  m_SizeDelta: {x: 38, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &106447379
 MonoBehaviour:
@@ -3378,7 +3378,7 @@ RectTransform:
   m_GameObject: {fileID: 1022067178}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9999687, y: 0.9999687, z: 0.9999687}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2023291038}
   m_RootOrder: 1
@@ -3386,7 +3386,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 56.25, y: -22.57}
-  m_SizeDelta: {x: 37.5, y: 45.141}
+  m_SizeDelta: {x: 38, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1022067180
 MonoBehaviour:
@@ -3859,7 +3859,7 @@ GameObject:
   - component: {fileID: 1202102210}
   - component: {fileID: 1202102211}
   m_Layer: 0
-  m_Name: NewSprite
+  m_Name: Castle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4699,7 +4699,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1000000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -4735,7 +4735,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.00027894974, y: -0.023201294}
@@ -4956,7 +4956,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 18.75, y: -22.57}
-  m_SizeDelta: {x: 37.5, y: 45.14}
+  m_SizeDelta: {x: 38, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1482336105
 MonoBehaviour:
@@ -5277,7 +5277,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 93.75, y: -22.570004}
-  m_SizeDelta: {x: 37.5, y: 45.14}
+  m_SizeDelta: {x: 38, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1676112455
 MonoBehaviour:
