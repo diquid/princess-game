@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1030188}
   - component: {fileID: 1030189}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 16128172}
   - component: {fileID: 16128173}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,7 +273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 21299235}
   - component: {fileID: 21299236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 24349803}
   - component: {fileID: 24349804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (109)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -412,7 +412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 24828208}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -445,7 +445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 31544359}
   - component: {fileID: 31544360}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -527,7 +527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 32587287}
   - component: {fileID: 32587288}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -585,7 +585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 32921646}
   - component: {fileID: 32921647}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -667,7 +667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 37323733}
   - component: {fileID: 37323734}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -724,7 +724,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 50467530}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -757,7 +757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 56828974}
   - component: {fileID: 56828975}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -814,7 +814,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 57889167}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -835,6 +835,38 @@ Transform:
   m_Father: {fileID: 1972131613}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &83196580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 83196581}
+  m_Layer: 8
+  m_Name: Waypoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &83196581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83196580}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 269169593}
+  - {fileID: 529703742}
+  m_Father: {fileID: 946649680}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &94320939
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,7 +877,7 @@ GameObject:
   m_Component:
   - component: {fileID: 94320940}
   - component: {fileID: 94320941}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -903,7 +935,7 @@ GameObject:
   m_Component:
   - component: {fileID: 103660399}
   - component: {fileID: 103660400}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (105)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -981,7 +1013,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -9.993724, y: 2.8356385}
+  m_Offset: {x: -9.993724, y: 5.637313}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -992,7 +1024,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.58525276, y: 11.285302}
+  m_Size: {x: 0.58525276, y: 16.88865}
   m_EdgeRadius: 0
 --- !u!4 &106722187
 Transform:
@@ -1002,7 +1034,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106722185}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.01, y: -4.81, z: -0.7878317}
+  m_LocalPosition: {x: -7.79, y: -4.81, z: -0.7878317}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1017,7 +1049,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 110818388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1049,7 +1081,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 122386234}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -1080,7 +1112,7 @@ GameObject:
   m_Component:
   - component: {fileID: 125563933}
   - component: {fileID: 125563934}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1161,7 +1193,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 143050986}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -1192,7 +1224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 143873427}
   - component: {fileID: 143873428}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1459,6 +1491,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f545478bd0fb7a478ed6f674a5210f5, type: 3}
+--- !u!1 &148449587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 148449588}
+  m_Layer: 8
+  m_Name: Waypoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &148449588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148449587}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1589969415}
+  - {fileID: 182363332}
+  m_Father: {fileID: 193836677}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &148495292
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,7 +1533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 148495293}
   - component: {fileID: 148495294}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1527,7 +1591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 153618104}
   - component: {fileID: 153618105}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1608,7 +1672,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 154514572}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1640,7 +1704,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 154710214}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1673,7 +1737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 155631589}
   - component: {fileID: 155631590}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1731,7 +1795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 167918211}
   - component: {fileID: 167918212}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1788,7 +1852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 172204354}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -1834,12 +1898,16 @@ RectTransform:
   m_GameObject: {fileID: 174589806}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0000954, y: 1.0000954, z: 1.0000954}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.0000954}
   m_Children:
   - {fileID: 1911629275}
   - {fileID: 933387174}
   - {fileID: 1929570508}
   - {fileID: 1275661907}
+  - {fileID: 1638979159}
+  - {fileID: 1691725788}
+  - {fileID: 1651027994}
+  - {fileID: 1630847728}
   m_Father: {fileID: 1479504056}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1858,7 +1926,7 @@ GameObject:
   m_Component:
   - component: {fileID: 174676317}
   - component: {fileID: 174676318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1930,6 +1998,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &182363331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 182363332}
+  m_Layer: 8
+  m_Name: Point2
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &182363332
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182363331}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.44, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 148449588}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &185276035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1940,7 +2038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 185276036}
   - component: {fileID: 185276037}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2026,7 +2124,7 @@ GameObject:
   - component: {fileID: 186200147}
   - component: {fileID: 186200146}
   - component: {fileID: 186200145}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2133,7 +2231,7 @@ MonoBehaviour:
   - {fileID: 1639570762}
   - {fileID: 1613333794}
   nextID: 0
-  speed: 4
+  speed: 3
 --- !u!61 &186200148
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2181,6 +2279,70 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!1 &189123353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 189123354}
+  m_Layer: 8
+  m_Name: Waypoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &189123354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189123353}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 714674642}
+  - {fileID: 1657205689}
+  m_Father: {fileID: 906477190}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &193836676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 193836677}
+  m_Layer: 8
+  m_Name: Dragon_Root (33)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &193836677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193836676}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.86, y: -6.59, z: 45.882317}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_Children:
+  - {fileID: 1318788979}
+  - {fileID: 148449588}
+  m_Father: {fileID: 595929759}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &194229649
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,7 +2352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 194229650}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -2220,7 +2382,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 202001752}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -2250,7 +2412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 209914890}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2283,7 +2445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 210411054}
   - component: {fileID: 210411055}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2340,7 +2502,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 222913076}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2377,7 +2539,7 @@ GameObject:
   - component: {fileID: 224010619}
   - component: {fileID: 224010618}
   - component: {fileID: 224010617}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2532,6 +2694,175 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!1 &224987628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224987629}
+  - component: {fileID: 224987634}
+  - component: {fileID: 224987633}
+  - component: {fileID: 224987632}
+  - component: {fileID: 224987631}
+  - component: {fileID: 224987630}
+  m_Layer: 8
+  m_Name: Dragon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &224987629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224987628}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.8, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1685215796}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &224987630
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224987628}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: bf5a1ceec41236c4e81f5e963267d05d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.68, y: 0.59}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &224987631
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224987628}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2a47d6e4f9c6c845a920a8ef6993386, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &224987632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224987628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f875d67063fe2b489c98a06d00ce425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {fileID: 1284629404}
+  - {fileID: 326085673}
+  nextID: 0
+  speed: 2
+--- !u!61 &224987633
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224987628}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00050807, y: -0.025314689}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.68, y: 0.59}
+    newSize: {x: 0.68, y: 0.59}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6802354, y: 0.3092339}
+  m_EdgeRadius: 0
+--- !u!50 &224987634
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224987628}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &242762806
 GameObject:
   m_ObjectHideFlags: 0
@@ -2542,7 +2873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 242762807}
   - component: {fileID: 242762808}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2624,7 +2955,7 @@ GameObject:
   m_Component:
   - component: {fileID: 244830909}
   - component: {fileID: 244830910}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2682,7 +3013,7 @@ GameObject:
   m_Component:
   - component: {fileID: 251551575}
   - component: {fileID: 251551576}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2730,6 +3061,68 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5244675, y: 0.19611073}
   m_EdgeRadius: 0
+--- !u!1 &266784371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 266784372}
+  m_Layer: 8
+  m_Name: Waypoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &266784372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266784371}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 495122380}
+  - {fileID: 2025637275}
+  m_Father: {fileID: 766589349}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &269169592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 269169593}
+  m_Layer: 8
+  m_Name: Point1
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &269169593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269169592}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.35, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 83196581}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &276854009
 GameObject:
   m_ObjectHideFlags: 0
@@ -2739,7 +3132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 276854010}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -2769,7 +3162,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 277941143}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2802,7 +3195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 279160646}
   - component: {fileID: 279160647}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2874,6 +3267,175 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &280320325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 280320326}
+  - component: {fileID: 280320331}
+  - component: {fileID: 280320330}
+  - component: {fileID: 280320329}
+  - component: {fileID: 280320328}
+  - component: {fileID: 280320327}
+  m_Layer: 8
+  m_Name: Dragon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &280320326
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280320325}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.65, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 906477190}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &280320327
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280320325}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: bf5a1ceec41236c4e81f5e963267d05d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.68, y: 0.59}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &280320328
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280320325}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2a47d6e4f9c6c845a920a8ef6993386, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &280320329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280320325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f875d67063fe2b489c98a06d00ce425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {fileID: 714674642}
+  - {fileID: 1657205689}
+  nextID: 0
+  speed: 2
+--- !u!61 &280320330
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280320325}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00050807, y: -0.025314689}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.68, y: 0.59}
+    newSize: {x: 0.68, y: 0.59}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6802354, y: 0.3092339}
+  m_EdgeRadius: 0
+--- !u!50 &280320331
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280320325}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &287979452
 GameObject:
   m_ObjectHideFlags: 0
@@ -2888,7 +3450,7 @@ GameObject:
   - component: {fileID: 287979456}
   - component: {fileID: 287979455}
   - component: {fileID: 287979454}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3052,7 +3614,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 294282811}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Seventh floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3097,7 +3659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 297042412}
   - component: {fileID: 297042413}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3179,7 +3741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 297220734}
   - component: {fileID: 297220733}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3236,7 +3798,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 299047786}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -3267,7 +3829,7 @@ GameObject:
   m_Component:
   - component: {fileID: 309314812}
   - component: {fileID: 309314813}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3349,7 +3911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 310935238}
   - component: {fileID: 310935239}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3430,7 +3992,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 312737535}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3453,6 +4015,36 @@ Transform:
   m_Father: {fileID: 925025014}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &326085672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 326085673}
+  m_Layer: 8
+  m_Name: Point2
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &326085673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326085672}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.54, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1788041367}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &344269529
 GameObject:
   m_ObjectHideFlags: 0
@@ -3467,7 +4059,7 @@ GameObject:
   - component: {fileID: 344269533}
   - component: {fileID: 344269532}
   - component: {fileID: 344269531}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3631,7 +4223,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 346586640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -3662,7 +4254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 360642318}
   - component: {fileID: 360642319}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3720,7 +4312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 363812167}
   - component: {fileID: 363812168}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3778,7 +4370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 367022087}
   - component: {fileID: 367022088}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3835,7 +4427,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 369327442}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3867,7 +4459,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 372872093}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3899,7 +4491,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 374229717}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3932,7 +4524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 374592331}
   - component: {fileID: 374592332}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4014,7 +4606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 384617827}
   - component: {fileID: 384617828}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4095,7 +4687,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 385374187}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -4126,7 +4718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 401458538}
   - component: {fileID: 401458539}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4208,7 +4800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 404288229}
   - component: {fileID: 404288230}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4290,7 +4882,7 @@ GameObject:
   m_Component:
   - component: {fileID: 410021652}
   - component: {fileID: 410021653}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4348,7 +4940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 410084991}
   - component: {fileID: 410084992}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (113)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4406,7 +4998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 415069988}
   - component: {fileID: 415069989}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4463,7 +5055,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 422205760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4495,7 +5087,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 423244966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -4525,7 +5117,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 423970071}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -4555,7 +5147,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 432435851}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4588,7 +5180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 433492852}
   - component: {fileID: 433492853}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4670,7 +5262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 444373819}
   - component: {fileID: 444373820}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4751,7 +5343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 446067438}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4783,7 +5375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 447079966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4816,7 +5408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 447214832}
   - component: {fileID: 447214833}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4898,7 +5490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 447927609}
   - component: {fileID: 447927610}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4979,7 +5571,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 453770124}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -5010,7 +5602,7 @@ GameObject:
   m_Component:
   - component: {fileID: 456068635}
   - component: {fileID: 456068636}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5092,7 +5684,7 @@ GameObject:
   m_Component:
   - component: {fileID: 460797410}
   - component: {fileID: 460797411}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (115)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5150,7 +5742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 470859367}
   - component: {fileID: 470859368}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5208,7 +5800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 471876460}
   - component: {fileID: 471876461}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5266,7 +5858,7 @@ GameObject:
   m_Component:
   - component: {fileID: 477559919}
   - component: {fileID: 477559920}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5348,7 +5940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 482583308}
   - component: {fileID: 482583309}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5430,7 +6022,7 @@ GameObject:
   m_Component:
   - component: {fileID: 485897116}
   - component: {fileID: 485897117}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (117)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5488,7 +6080,7 @@ GameObject:
   m_Component:
   - component: {fileID: 491782270}
   - component: {fileID: 491782271}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5545,7 +6137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 492400457}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5578,7 +6170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 494049579}
   - component: {fileID: 494049580}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5650,6 +6242,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &495122379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 495122380}
+  m_Layer: 8
+  m_Name: Point1
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &495122380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495122379}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.89, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 266784372}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &511355876
 GameObject:
   m_ObjectHideFlags: 0
@@ -5659,7 +6281,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 511355877}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5692,7 +6314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 516552093}
   - component: {fileID: 516552094}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5916,7 +6538,7 @@ GameObject:
   - component: {fileID: 528760966}
   - component: {fileID: 528760965}
   - component: {fileID: 528760964}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6023,7 +6645,7 @@ MonoBehaviour:
   - {fileID: 1628723172}
   - {fileID: 1280479195}
   nextID: 0
-  speed: 4
+  speed: 3
 --- !u!61 &528760967
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6081,7 +6703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 528859346}
   - component: {fileID: 528859347}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (87)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6139,7 +6761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 529452329}
   - component: {fileID: 529452330}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6187,6 +6809,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5244675, y: 0.19611073}
   m_EdgeRadius: 0
+--- !u!1 &529703741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 529703742}
+  m_Layer: 8
+  m_Name: Point2
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &529703742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529703741}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.25, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 83196581}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &537842962
 GameObject:
   m_ObjectHideFlags: 0
@@ -6197,7 +6849,7 @@ GameObject:
   m_Component:
   - component: {fileID: 537842963}
   - component: {fileID: 537842964}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6279,7 +6931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 541534001}
   - component: {fileID: 541534002}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6341,7 +6993,7 @@ GameObject:
   - component: {fileID: 552957818}
   - component: {fileID: 552957817}
   - component: {fileID: 552957816}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6506,7 +7158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 566167914}
   - component: {fileID: 566167915}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6564,7 +7216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 567468095}
   - component: {fileID: 567468096}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6622,7 +7274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 570831814}
   - component: {fileID: 570831815}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6704,7 +7356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 576012494}
   - component: {fileID: 576012495}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6786,7 +7438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 581799837}
   - component: {fileID: 581799838}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6834,6 +7486,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5244675, y: 0.19611073}
   m_EdgeRadius: 0
+--- !u!1 &586321504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 586321505}
+  m_Layer: 8
+  m_Name: Point2
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &586321505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586321504}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.25, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1067573976}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &587684105
 GameObject:
   m_ObjectHideFlags: 0
@@ -6844,7 +7526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 587684106}
   - component: {fileID: 587684107}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (99)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6902,7 +7584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 587719834}
   - component: {fileID: 587719835}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6984,7 +7666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 588331949}
   - component: {fileID: 588331950}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7041,7 +7723,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 595929759}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7089,6 +7771,12 @@ Transform:
   - {fileID: 2117776317}
   - {fileID: 492400457}
   - {fileID: 1550935198}
+  - {fileID: 1685215796}
+  - {fileID: 766589349}
+  - {fileID: 906477190}
+  - {fileID: 193836677}
+  - {fileID: 946649680}
+  - {fileID: 1293708316}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7126,8 +7814,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -44.119995}
-  m_SizeDelta: {x: 0, y: 88.23}
+  m_AnchoredPosition: {x: 0.35998535, y: -44.11998}
+  m_SizeDelta: {x: 1.37, y: 88.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &597829964
 MonoBehaviour:
@@ -7177,7 +7865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 604391496}
   - component: {fileID: 604391497}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7259,7 +7947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 606077528}
   - component: {fileID: 606077529}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7402,7 +8090,7 @@ GameObject:
   m_Component:
   - component: {fileID: 611124757}
   - component: {fileID: 611124758}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7460,7 +8148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 613344204}
   - component: {fileID: 613344205}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (111)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7518,7 +8206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 619389248}
   - component: {fileID: 619389249}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7600,7 +8288,7 @@ GameObject:
   m_Component:
   - component: {fileID: 620673963}
   - component: {fileID: 620673964}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (94)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7758,7 +8446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 626216669}
   - component: {fileID: 626216670}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (95)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7815,7 +8503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 633543615}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -7846,7 +8534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 634610665}
   - component: {fileID: 634610666}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7927,7 +8615,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 636945270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -7962,7 +8650,7 @@ GameObject:
   - component: {fileID: 652578808}
   - component: {fileID: 652578807}
   - component: {fileID: 652578806}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8069,7 +8757,7 @@ MonoBehaviour:
   - {fileID: 1189432662}
   - {fileID: 57889167}
   nextID: 0
-  speed: 4
+  speed: 3
 --- !u!61 &652578809
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8127,7 +8815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 654378035}
   - component: {fileID: 654378036}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8185,7 +8873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 654878804}
   - component: {fileID: 654878805}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8266,7 +8954,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 655487501}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: First floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8313,7 +9001,7 @@ GameObject:
   m_Component:
   - component: {fileID: 662872718}
   - component: {fileID: 662872719}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8395,7 +9083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 664118121}
   - component: {fileID: 664118122}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8477,7 +9165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 665308213}
   - component: {fileID: 665308214}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8559,7 +9247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 666670289}
   - component: {fileID: 666670290}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (96)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8617,7 +9305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 667875440}
   - component: {fileID: 667875441}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8699,7 +9387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 686891476}
   - component: {fileID: 686891477}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8757,7 +9445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 687034863}
   - component: {fileID: 687034864}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8839,7 +9527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 699718836}
   - component: {fileID: 699718837}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8897,7 +9585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 701313977}
   - component: {fileID: 701313978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8955,7 +9643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705625965}
   - component: {fileID: 705625966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9036,7 +9724,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 712808044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9059,6 +9747,36 @@ Transform:
   m_Father: {fileID: 872827752}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &714674641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 714674642}
+  m_Layer: 8
+  m_Name: Point1
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &714674642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714674641}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.35, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 189123354}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &716411346
 GameObject:
   m_ObjectHideFlags: 0
@@ -9069,7 +9787,7 @@ GameObject:
   m_Component:
   - component: {fileID: 716411347}
   - component: {fileID: 716411348}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9127,7 +9845,7 @@ GameObject:
   m_Component:
   - component: {fileID: 717017881}
   - component: {fileID: 717017882}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9209,7 +9927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 717232299}
   - component: {fileID: 717232300}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9291,7 +10009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 718350446}
   - component: {fileID: 718350447}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9349,7 +10067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 722656936}
   - component: {fileID: 722656937}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (104)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9406,7 +10124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 723322169}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -9437,7 +10155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 725907244}
   - component: {fileID: 725907245}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9518,7 +10236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 743133202}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -9549,7 +10267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 755946260}
   - component: {fileID: 755946261}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9621,6 +10339,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &766589348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 766589349}
+  m_Layer: 8
+  m_Name: Dragon_Root (31)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &766589349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766589348}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.07, y: -3.62, z: 45.882317}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_Children:
+  - {fileID: 1198004096}
+  - {fileID: 266784372}
+  m_Father: {fileID: 595929759}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &773425073
 GameObject:
   m_ObjectHideFlags: 0
@@ -9631,7 +10381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 773425074}
   - component: {fileID: 773425075}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (119)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9688,7 +10438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 779973711}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9721,7 +10471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 781909580}
   - component: {fileID: 781909581}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9802,7 +10552,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 787342528}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9834,7 +10584,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 788123775}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9867,7 +10617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 792056059}
   - component: {fileID: 792056060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9949,7 +10699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 797701034}
   - component: {fileID: 797701035}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10031,7 +10781,7 @@ GameObject:
   m_Component:
   - component: {fileID: 798027035}
   - component: {fileID: 798027036}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10113,7 +10863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 798679963}
   - component: {fileID: 798679964}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10195,7 +10945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 798905598}
   - component: {fileID: 798905599}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (120)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10257,7 +11007,7 @@ GameObject:
   - component: {fileID: 799257176}
   - component: {fileID: 799257175}
   - component: {fileID: 799257174}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10364,7 +11114,7 @@ MonoBehaviour:
   - {fileID: 194229650}
   - {fileID: 143050986}
   nextID: 0
-  speed: 4
+  speed: 3
 --- !u!61 &799257177
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10422,7 +11172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 800874143}
   - component: {fileID: 800874144}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10508,7 +11258,7 @@ GameObject:
   - component: {fileID: 809971762}
   - component: {fileID: 809971761}
   - component: {fileID: 809971760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10615,7 +11365,7 @@ MonoBehaviour:
   - {fileID: 1187935690}
   - {fileID: 1012005982}
   nextID: 0
-  speed: 4
+  speed: 3
 --- !u!61 &809971763
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10672,7 +11422,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811530175}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fifth floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10716,7 +11466,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 816401176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -10747,7 +11497,7 @@ GameObject:
   m_Component:
   - component: {fileID: 825490315}
   - component: {fileID: 825490316}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10828,7 +11578,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 829562411}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -10859,7 +11609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 830530647}
   - component: {fileID: 830530648}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10940,7 +11690,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 847078911}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10972,7 +11722,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 850139485}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11005,7 +11755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 851697308}
   - component: {fileID: 851697309}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11087,7 +11837,7 @@ GameObject:
   m_Component:
   - component: {fileID: 857104600}
   - component: {fileID: 857104601}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11168,7 +11918,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 859731981}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -11199,7 +11949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 867366626}
   - component: {fileID: 867366627}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11281,7 +12031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 872676722}
   - component: {fileID: 872676723}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11362,7 +12112,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 872827752}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11394,7 +12144,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 879360687}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11431,7 +12181,7 @@ GameObject:
   - component: {fileID: 883522953}
   - component: {fileID: 883522952}
   - component: {fileID: 883522951}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11600,7 +12350,7 @@ GameObject:
   - component: {fileID: 884112656}
   - component: {fileID: 884112655}
   - component: {fileID: 884112654}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11765,7 +12515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 888859944}
   - component: {fileID: 888859945}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11822,7 +12572,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 889709186}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -11857,7 +12607,7 @@ GameObject:
   - component: {fileID: 892637163}
   - component: {fileID: 892637162}
   - component: {fileID: 892637161}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11964,7 +12714,7 @@ MonoBehaviour:
   - {fileID: 1534335859}
   - {fileID: 423244966}
   nextID: 0
-  speed: 4
+  speed: 3
 --- !u!61 &892637164
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12021,7 +12771,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 900898640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -12051,7 +12801,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 901528793}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -12082,7 +12832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 902191720}
   - component: {fileID: 902191721}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12140,7 +12890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 902564646}
   - component: {fileID: 902564647}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12202,7 +12952,7 @@ GameObject:
   - component: {fileID: 904823797}
   - component: {fileID: 904823796}
   - component: {fileID: 904823795}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12309,7 +13059,7 @@ MonoBehaviour:
   - {fileID: 743133202}
   - {fileID: 1104462186}
   nextID: 0
-  speed: 4
+  speed: 3
 --- !u!61 &904823798
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12367,7 +13117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 904948790}
   - component: {fileID: 904948791}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12439,6 +13189,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &906477189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 906477190}
+  m_Layer: 8
+  m_Name: Dragon_Root (32)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &906477190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906477189}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -15.64, y: -3.62, z: 45.882317}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_Children:
+  - {fileID: 280320326}
+  - {fileID: 189123354}
+  m_Father: {fileID: 595929759}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &910603245
 GameObject:
   m_ObjectHideFlags: 0
@@ -12449,7 +13231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 910603246}
   - component: {fileID: 910603247}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12530,7 +13312,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 911691355}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fourth floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12574,7 +13356,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 913024155}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -12662,7 +13444,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 925025014}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12695,7 +13477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 933158176}
   - component: {fileID: 933158177}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (110)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12827,7 +13609,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 935362857}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -12857,7 +13639,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 938706837}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12889,7 +13671,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 939182167}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12922,7 +13704,7 @@ GameObject:
   m_Component:
   - component: {fileID: 941973701}
   - component: {fileID: 941973702}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (112)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12979,7 +13761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 943527540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -12999,6 +13781,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 712808044}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &946649679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 946649680}
+  m_Layer: 8
+  m_Name: Dragon_Root (34)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &946649680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946649679}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.38, y: -6.59, z: 45.882317}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_Children:
+  - {fileID: 1021583895}
+  - {fileID: 83196581}
+  m_Father: {fileID: 595929759}
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &946929776
 GameObject:
@@ -13030,7 +13844,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 8.288876, y: 2.9746878}
+  m_Offset: {x: 8.288876, y: 6.0814247}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -13041,7 +13855,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.58158493, y: 10.786985}
+  m_Size: {x: 0.58158493, y: 17.000462}
   m_EdgeRadius: 0
 --- !u!4 &946929778
 Transform:
@@ -13051,7 +13865,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 946929776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.24, y: -5.21, z: -0.7878317}
+  m_LocalPosition: {x: 18.97, y: -5.21, z: -0.7878317}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -13067,7 +13881,7 @@ GameObject:
   m_Component:
   - component: {fileID: 948469668}
   - component: {fileID: 948469669}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13148,7 +13962,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 949962575}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -13179,7 +13993,7 @@ GameObject:
   m_Component:
   - component: {fileID: 959687388}
   - component: {fileID: 959687389}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13261,7 +14075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 962516048}
   - component: {fileID: 962516049}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13319,7 +14133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 964494079}
   - component: {fileID: 964494080}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13401,7 +14215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 969854691}
   - component: {fileID: 969854692}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13483,7 +14297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 970223901}
   - component: {fileID: 970223902}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13541,7 +14355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 971349998}
   - component: {fileID: 971349999}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13623,7 +14437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 973018687}
   - component: {fileID: 973018688}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13705,7 +14519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 979442727}
   - component: {fileID: 979442726}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13763,7 +14577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 980923726}
   - component: {fileID: 980923727}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13844,7 +14658,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 992557213}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -13874,7 +14688,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1010459625}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Third floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13919,7 +14733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1012005982}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -13950,7 +14764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1020011509}
   - component: {fileID: 1020011510}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14008,7 +14822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1021427882}
   - component: {fileID: 1021427883}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14080,6 +14894,175 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1021583894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1021583895}
+  - component: {fileID: 1021583900}
+  - component: {fileID: 1021583899}
+  - component: {fileID: 1021583898}
+  - component: {fileID: 1021583897}
+  - component: {fileID: 1021583896}
+  m_Layer: 8
+  m_Name: Dragon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1021583895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021583894}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.08, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 946649680}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1021583896
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021583894}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: bf5a1ceec41236c4e81f5e963267d05d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.68, y: 0.59}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &1021583897
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021583894}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2a47d6e4f9c6c845a920a8ef6993386, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1021583898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021583894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f875d67063fe2b489c98a06d00ce425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {fileID: 269169593}
+  - {fileID: 529703742}
+  nextID: 0
+  speed: 2
+--- !u!61 &1021583899
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021583894}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00050807, y: -0.025314689}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.68, y: 0.59}
+    newSize: {x: 0.68, y: 0.59}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6802354, y: 0.3092339}
+  m_EdgeRadius: 0
+--- !u!50 &1021583900
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021583894}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1033821691
 GameObject:
   m_ObjectHideFlags: 0
@@ -14094,7 +15077,7 @@ GameObject:
   - component: {fileID: 1033821695}
   - component: {fileID: 1033821694}
   - component: {fileID: 1033821693}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14263,7 +15246,7 @@ GameObject:
   - component: {fileID: 1037797352}
   - component: {fileID: 1037797351}
   - component: {fileID: 1037797350}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14428,7 +15411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1045561564}
   - component: {fileID: 1045561565}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14486,7 +15469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1062557899}
   - component: {fileID: 1062557900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14534,6 +15517,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5244675, y: 0.19611073}
   m_EdgeRadius: 0
+--- !u!1 &1067573975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1067573976}
+  m_Layer: 8
+  m_Name: Waypoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1067573976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067573975}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1151094406}
+  - {fileID: 586321505}
+  m_Father: {fileID: 1293708316}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1070838715
 GameObject:
   m_ObjectHideFlags: 0
@@ -14543,7 +15558,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1070838716}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14575,7 +15590,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1089551355}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -14605,7 +15620,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1097616093}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14638,7 +15653,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1101815484}
   - component: {fileID: 1101815485}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14720,7 +15735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1103273203}
   - component: {fileID: 1103273204}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14777,7 +15792,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1104462186}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -14807,7 +15822,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1105567222}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14840,7 +15855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1108119894}
   - component: {fileID: 1108119895}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14922,7 +15937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1112590017}
   - component: {fileID: 1112590018}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15008,7 +16023,7 @@ GameObject:
   - component: {fileID: 1113469243}
   - component: {fileID: 1113469242}
   - component: {fileID: 1113469241}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15173,7 +16188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1119094058}
   - component: {fileID: 1119094059}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15235,7 +16250,7 @@ GameObject:
   - component: {fileID: 1121237655}
   - component: {fileID: 1121237654}
   - component: {fileID: 1121237653}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15399,7 +16414,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1121484958}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15431,7 +16446,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1123493626}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -15452,6 +16467,175 @@ Transform:
   m_Father: {fileID: 1774357525}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1129567456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1129567457}
+  - component: {fileID: 1129567462}
+  - component: {fileID: 1129567461}
+  - component: {fileID: 1129567460}
+  - component: {fileID: 1129567459}
+  - component: {fileID: 1129567458}
+  m_Layer: 8
+  m_Name: Dragon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1129567457
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129567456}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.65, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1293708316}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1129567458
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129567456}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: bf5a1ceec41236c4e81f5e963267d05d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.68, y: 0.59}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &1129567459
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129567456}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2a47d6e4f9c6c845a920a8ef6993386, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1129567460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129567456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f875d67063fe2b489c98a06d00ce425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {fileID: 1151094406}
+  - {fileID: 586321505}
+  nextID: 0
+  speed: 2
+--- !u!61 &1129567461
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129567456}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00050807, y: -0.025314689}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.68, y: 0.59}
+    newSize: {x: 0.68, y: 0.59}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6802354, y: 0.3092339}
+  m_EdgeRadius: 0
+--- !u!50 &1129567462
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129567456}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1130630332
 GameObject:
   m_ObjectHideFlags: 0
@@ -15461,7 +16645,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1130630333}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15493,7 +16677,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1132223605}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15526,7 +16710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1136408476}
   - component: {fileID: 1136408477}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15584,7 +16768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1140448544}
   - component: {fileID: 1140448545}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (102)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15642,7 +16826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1146630047}
   - component: {fileID: 1146630048}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15724,7 +16908,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1146983240}
   - component: {fileID: 1146983241}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15782,7 +16966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1147858529}
   - component: {fileID: 1147858530}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15854,6 +17038,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1151094405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1151094406}
+  m_Layer: 8
+  m_Name: Point1
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1151094406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151094405}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.35, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1067573976}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1168308439
 GameObject:
   m_ObjectHideFlags: 0
@@ -15864,7 +17078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1168308440}
   - component: {fileID: 1168308441}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (98)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15922,7 +17136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1174520395}
   - component: {fileID: 1174520396}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15980,7 +17194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1180282948}
   - component: {fileID: 1180282949}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16038,7 +17252,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1181063763}
   - component: {fileID: 1181063764}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16095,7 +17309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1182920139}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sixth floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16142,7 +17356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1186036684}
   - component: {fileID: 1186036685}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (121)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16200,7 +17414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1187136730}
   - component: {fileID: 1187136731}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16281,7 +17495,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1187935690}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -16311,7 +17525,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1189432662}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -16342,7 +17556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1191592775}
   - component: {fileID: 1191592776}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (97)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16400,7 +17614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1196478427}
   - component: {fileID: 1196478428}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16448,6 +17662,175 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5244675, y: 0.19611073}
   m_EdgeRadius: 0
+--- !u!1 &1198004095
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1198004096}
+  - component: {fileID: 1198004101}
+  - component: {fileID: 1198004100}
+  - component: {fileID: 1198004099}
+  - component: {fileID: 1198004098}
+  - component: {fileID: 1198004097}
+  m_Layer: 8
+  m_Name: Dragon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1198004096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198004095}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.22, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 766589349}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1198004097
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198004095}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: bf5a1ceec41236c4e81f5e963267d05d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.68, y: 0.59}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &1198004098
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198004095}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2a47d6e4f9c6c845a920a8ef6993386, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1198004099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198004095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f875d67063fe2b489c98a06d00ce425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {fileID: 495122380}
+  - {fileID: 2025637275}
+  nextID: 0
+  speed: 2
+--- !u!61 &1198004100
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198004095}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00050807, y: -0.025314689}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.68, y: 0.59}
+    newSize: {x: 0.68, y: 0.59}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6802354, y: 0.3092339}
+  m_EdgeRadius: 0
+--- !u!50 &1198004101
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198004095}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1200333335
 GameObject:
   m_ObjectHideFlags: 0
@@ -16457,7 +17840,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1200333336}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Second floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16583,7 +17966,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1204031498}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -16614,7 +17997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1211548088}
   - component: {fileID: 1211548089}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (93)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16672,7 +18055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1223670523}
   - component: {fileID: 1223670524}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16729,7 +18112,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1226768291}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16773,7 +18156,7 @@ GameObject:
   - component: {fileID: 1240778782}
   - component: {fileID: 1240778781}
   - component: {fileID: 1240778780}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16937,7 +18320,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1243429519}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16970,7 +18353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1252084682}
   - component: {fileID: 1252084683}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17051,7 +18434,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1270066793}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17084,7 +18467,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1271242255}
   - component: {fileID: 1271242256}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17166,7 +18549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1273805427}
   - component: {fileID: 1273805428}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17350,7 +18733,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1277069731}
   - component: {fileID: 1277069732}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17407,7 +18790,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1280479195}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -17437,7 +18820,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1283008258}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -17472,7 +18855,7 @@ GameObject:
   - component: {fileID: 1284061670}
   - component: {fileID: 1284061669}
   - component: {fileID: 1284061668}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17627,6 +19010,36 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!1 &1284629403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1284629404}
+  m_Layer: 8
+  m_Name: Point1
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1284629404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284629403}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.02, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1788041367}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1288561868
 GameObject:
   m_ObjectHideFlags: 0
@@ -17636,7 +19049,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1288561869}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -17667,7 +19080,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1290473770}
   - component: {fileID: 1290473771}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17739,6 +19152,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1293708315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1293708316}
+  m_Layer: 8
+  m_Name: Dragon_Root (35)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1293708316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293708315}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -15.23, y: -6.59, z: 45.882317}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_Children:
+  - {fileID: 1129567457}
+  - {fileID: 1067573976}
+  m_Father: {fileID: 595929759}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1300240657
 GameObject:
   m_ObjectHideFlags: 0
@@ -17749,7 +19194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1300240658}
   - component: {fileID: 1300240659}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17807,7 +19252,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1301766516}
   - component: {fileID: 1301766517}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17865,7 +19310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1305500505}
   - component: {fileID: 1305500506}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17946,7 +19391,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1311258989}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -17977,7 +19422,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1311631899}
   - component: {fileID: 1311631900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18059,7 +19504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1317226479}
   - component: {fileID: 1317226480}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18107,6 +19552,175 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5244675, y: 0.19611073}
   m_EdgeRadius: 0
+--- !u!1 &1318788978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1318788979}
+  - component: {fileID: 1318788984}
+  - component: {fileID: 1318788983}
+  - component: {fileID: 1318788982}
+  - component: {fileID: 1318788981}
+  - component: {fileID: 1318788980}
+  m_Layer: 8
+  m_Name: Dragon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1318788979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318788978}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 193836677}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1318788980
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318788978}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: bf5a1ceec41236c4e81f5e963267d05d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.68, y: 0.59}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &1318788981
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318788978}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b2a47d6e4f9c6c845a920a8ef6993386, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1318788982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318788978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f875d67063fe2b489c98a06d00ce425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {fileID: 1589969415}
+  - {fileID: 182363332}
+  nextID: 0
+  speed: 2
+--- !u!61 &1318788983
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318788978}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00050807, y: -0.025314689}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.68, y: 0.59}
+    newSize: {x: 0.68, y: 0.59}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6802354, y: 0.3092339}
+  m_EdgeRadius: 0
+--- !u!50 &1318788984
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318788978}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1000000
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1325138217
 GameObject:
   m_ObjectHideFlags: 0
@@ -18116,7 +19730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1325138218}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -18147,7 +19761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1325449451}
   - component: {fileID: 1325449452}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18229,7 +19843,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1327391145}
   - component: {fileID: 1327391146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18311,7 +19925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1329850521}
   - component: {fileID: 1329850522}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18392,7 +20006,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1334879160}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Castle floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18428,7 +20042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1337041147}
   - component: {fileID: 1337041148}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18509,7 +20123,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1339918520}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -18539,7 +20153,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1343080633}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18572,7 +20186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1343572656}
   - component: {fileID: 1343572657}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18630,7 +20244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1345907331}
   - component: {fileID: 1345907332}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18712,7 +20326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1351893302}
   - component: {fileID: 1351893303}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18794,7 +20408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1359018330}
   - component: {fileID: 1359018331}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (107)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18856,7 +20470,7 @@ GameObject:
   - component: {fileID: 1369342236}
   - component: {fileID: 1369342235}
   - component: {fileID: 1369342234}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18963,7 +20577,7 @@ MonoBehaviour:
   - {fileID: 1283008258}
   - {fileID: 2131569680}
   nextID: 0
-  speed: 4
+  speed: 3
 --- !u!61 &1369342237
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19021,7 +20635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1387128030}
   - component: {fileID: 1387128031}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19102,7 +20716,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1390211557}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19139,7 +20753,7 @@ GameObject:
   - component: {fileID: 1390596298}
   - component: {fileID: 1390596297}
   - component: {fileID: 1390596296}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19304,7 +20918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1392188127}
   - component: {fileID: 1392188128}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (90)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19362,7 +20976,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1396833561}
   - component: {fileID: 1396833562}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19420,7 +21034,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1407612997}
   - component: {fileID: 1407612998}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (108)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19478,7 +21092,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1416272823}
   - component: {fileID: 1416272824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19560,7 +21174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1423018367}
   - component: {fileID: 1423018368}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19617,7 +21231,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1431861211}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -19648,7 +21262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1442030919}
   - component: {fileID: 1442030920}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19730,7 +21344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1446622384}
   - component: {fileID: 1446622385}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19812,7 +21426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1447325572}
   - component: {fileID: 1447325573}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19870,7 +21484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1449893361}
   - component: {fileID: 1449893362}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19927,7 +21541,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1451064153}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19960,7 +21574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1452294820}
   - component: {fileID: 1452294821}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20018,7 +21632,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1460592917}
   - component: {fileID: 1460592918}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20104,7 +21718,7 @@ GameObject:
   - component: {fileID: 1469431925}
   - component: {fileID: 1469431924}
   - component: {fileID: 1469431923}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20273,7 +21887,7 @@ GameObject:
   - component: {fileID: 1470863011}
   - component: {fileID: 1470863014}
   - component: {fileID: 1470863013}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20437,7 +22051,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1475574192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -20468,7 +22082,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1479312958}
   - component: {fileID: 1479312959}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20650,7 +22264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1486332973}
   - component: {fileID: 1486332974}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (120)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20708,7 +22322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1489966322}
   - component: {fileID: 1489966323}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20789,7 +22403,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1490048417}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20822,7 +22436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1492009826}
   - component: {fileID: 1492009827}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (114)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20880,7 +22494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1500732778}
   - component: {fileID: 1500732779}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (118)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20938,7 +22552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1520633462}
   - component: {fileID: 1520633463}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (119)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20996,7 +22610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1526258944}
   - component: {fileID: 1526258945}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21082,7 +22696,7 @@ GameObject:
   - component: {fileID: 1527060702}
   - component: {fileID: 1527060701}
   - component: {fileID: 1527060700}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21247,7 +22861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1527290301}
   - component: {fileID: 1527290302}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21328,7 +22942,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1534335859}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -21359,7 +22973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1536899352}
   - component: {fileID: 1536899353}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21441,7 +23055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1544046579}
   - component: {fileID: 1544046580}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21522,7 +23136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1550935198}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21554,7 +23168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1555519954}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -21585,7 +23199,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1557057357}
   - component: {fileID: 1557057358}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (88)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21647,7 +23261,7 @@ GameObject:
   - component: {fileID: 1571878614}
   - component: {fileID: 1571878613}
   - component: {fileID: 1571878612}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21812,7 +23426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1574655368}
   - component: {fileID: 1574655369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21894,7 +23508,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1577582776}
   - component: {fileID: 1577582777}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21952,7 +23566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1586982132}
   - component: {fileID: 1586982133}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22034,7 +23648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1589526006}
   - component: {fileID: 1589526007}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22106,6 +23720,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1589969414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1589969415}
+  m_Layer: 8
+  m_Name: Point1
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1589969415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589969414}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.35, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 148449588}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1593590077
 GameObject:
   m_ObjectHideFlags: 0
@@ -22115,7 +23759,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1593590078}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -22146,7 +23790,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1595616729}
   - component: {fileID: 1595616730}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22203,7 +23847,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1599502228}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -22234,7 +23878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1602186286}
   - component: {fileID: 1602186287}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22316,7 +23960,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1611786820}
   - component: {fileID: 1611786821}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22397,7 +24041,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1613333794}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -22427,7 +24071,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1621115577}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -22462,7 +24106,7 @@ GameObject:
   - component: {fileID: 1624261359}
   - component: {fileID: 1624261358}
   - component: {fileID: 1624261357}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22569,7 +24213,7 @@ MonoBehaviour:
   - {fileID: 1911577079}
   - {fileID: 935362857}
   nextID: 0
-  speed: 4
+  speed: 3
 --- !u!61 &1624261360
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22626,7 +24270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1628723172}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -22657,7 +24301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1628842731}
   - component: {fileID: 1628842732}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22729,6 +24373,210 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1630847727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1630847728}
+  - component: {fileID: 1630847731}
+  - component: {fileID: 1630847730}
+  - component: {fileID: 1630847729}
+  m_Layer: 5
+  m_Name: Life8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1630847728
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630847727}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 174589807}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -131.25, y: -22.570004}
+  m_SizeDelta: {x: 38, y: 45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1630847729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630847727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &1630847730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630847727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: cd4746af12d929043b6f113bb0bcae3c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1630847731
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630847727}
+  m_CullTransparentMesh: 1
+--- !u!1 &1638979158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1638979159}
+  - component: {fileID: 1638979162}
+  - component: {fileID: 1638979161}
+  - component: {fileID: 1638979160}
+  m_Layer: 5
+  m_Name: Life5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1638979159
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638979158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 174589807}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -18.75, y: -22.570004}
+  m_SizeDelta: {x: 38, y: 45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1638979160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638979158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &1638979161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638979158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: cd4746af12d929043b6f113bb0bcae3c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1638979162
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638979158}
+  m_CullTransparentMesh: 1
 --- !u!1 &1639570761
 GameObject:
   m_ObjectHideFlags: 0
@@ -22738,7 +24586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1639570762}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -22769,7 +24617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1641287914}
   - component: {fileID: 1641287915}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22850,7 +24698,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1649456768}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22873,6 +24721,138 @@ Transform:
   m_Father: {fileID: 110818388}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1651027993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1651027994}
+  - component: {fileID: 1651027997}
+  - component: {fileID: 1651027996}
+  - component: {fileID: 1651027995}
+  m_Layer: 5
+  m_Name: Life7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1651027994
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651027993}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 174589807}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -93.75, y: -22.570004}
+  m_SizeDelta: {x: 38, y: 45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1651027995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651027993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &1651027996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651027993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: cd4746af12d929043b6f113bb0bcae3c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1651027997
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651027993}
+  m_CullTransparentMesh: 1
+--- !u!1 &1657205688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1657205689}
+  m_Layer: 8
+  m_Name: Point2
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1657205689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657205688}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.25, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 189123354}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1659177655
 GameObject:
   m_ObjectHideFlags: 0
@@ -22882,7 +24862,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1659177656}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22915,7 +24895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1660858116}
   - component: {fileID: 1660858117}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22973,7 +24953,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1667674806}
   - component: {fileID: 1667674807}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (103)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23035,7 +25015,7 @@ GameObject:
   - component: {fileID: 1669021770}
   - component: {fileID: 1669021769}
   - component: {fileID: 1669021768}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23142,7 +25122,7 @@ MonoBehaviour:
   - {fileID: 1123493626}
   - {fileID: 901528793}
   nextID: 0
-  speed: 4
+  speed: 3
 --- !u!61 &1669021771
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23200,7 +25180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1669655936}
   - component: {fileID: 1669655937}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23258,7 +25238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1672796343}
   - component: {fileID: 1672796344}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23316,7 +25296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1673184993}
   - component: {fileID: 1673184994}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23398,7 +25378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1679006765}
   - component: {fileID: 1679006766}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23470,6 +25450,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1685215795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1685215796}
+  m_Layer: 8
+  m_Name: Dragon_Root (30)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1685215796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685215795}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9.81, y: -3.62, z: 45.882317}
+  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_Children:
+  - {fileID: 224987629}
+  - {fileID: 1788041367}
+  m_Father: {fileID: 595929759}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1689629643
 GameObject:
   m_ObjectHideFlags: 0
@@ -23479,7 +25491,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1689629644}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23512,7 +25524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1691002802}
   - component: {fileID: 1691002803}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23560,6 +25572,108 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5244675, y: 0.19611073}
   m_EdgeRadius: 0
+--- !u!1 &1691725787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1691725788}
+  - component: {fileID: 1691725791}
+  - component: {fileID: 1691725790}
+  - component: {fileID: 1691725789}
+  m_Layer: 5
+  m_Name: Life6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1691725788
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691725787}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 174589807}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -56.25, y: -22.570004}
+  m_SizeDelta: {x: 38, y: 45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1691725789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691725787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &1691725790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691725787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: cd4746af12d929043b6f113bb0bcae3c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1691725791
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691725787}
+  m_CullTransparentMesh: 1
 --- !u!1 &1700592597
 GameObject:
   m_ObjectHideFlags: 0
@@ -23569,7 +25683,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1700592598}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23601,7 +25715,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1707366995}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -23632,7 +25746,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1726618306}
   - component: {fileID: 1726618307}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23690,7 +25804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1743581729}
   - component: {fileID: 1743581730}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23772,7 +25886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1750320026}
   - component: {fileID: 1750320027}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23858,7 +25972,7 @@ GameObject:
   - component: {fileID: 1752546198}
   - component: {fileID: 1752546197}
   - component: {fileID: 1752546196}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24023,7 +26137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1757023805}
   - component: {fileID: 1757023806}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24105,7 +26219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1764367602}
   - component: {fileID: 1764367603}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24186,7 +26300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1770014547}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24218,7 +26332,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1774357525}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24250,7 +26364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1775868737}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -24281,7 +26395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1782015230}
   - component: {fileID: 1782015231}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24363,7 +26477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1782658580}
   - component: {fileID: 1782658581}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24411,6 +26525,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5244675, y: 0.19611073}
   m_EdgeRadius: 0
+--- !u!1 &1788041366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1788041367}
+  m_Layer: 8
+  m_Name: Waypoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1788041367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788041366}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1284629404}
+  - {fileID: 326085673}
+  m_Father: {fileID: 1685215796}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1789605892
 GameObject:
   m_ObjectHideFlags: 0
@@ -24421,7 +26567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1789605893}
   - component: {fileID: 1789605894}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24503,7 +26649,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1792224969}
   - component: {fileID: 1792224970}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24561,7 +26707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1798193713}
   - component: {fileID: 1798193714}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24643,7 +26789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1799153534}
   - component: {fileID: 1799153535}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24700,7 +26846,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1801935284}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24733,7 +26879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1804392090}
   - component: {fileID: 1804392091}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (101)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24791,7 +26937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1806864574}
   - component: {fileID: 1806864575}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24873,7 +27019,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1814811772}
   - component: {fileID: 1814811773}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24931,7 +27077,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1820156755}
   - component: {fileID: 1820156756}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25013,7 +27159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1825961833}
   - component: {fileID: 1825961834}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25071,7 +27217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1843417636}
   - component: {fileID: 1843417637}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (92)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25129,7 +27275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1847928601}
   - component: {fileID: 1847928602}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (116)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25187,7 +27333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1849058284}
   - component: {fileID: 1849058285}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25245,7 +27391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1869526249}
   - component: {fileID: 1869526250}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25326,7 +27472,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1880887256}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Eigth floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25370,7 +27516,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1886418543}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25403,7 +27549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1891675412}
   - component: {fileID: 1891675413}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25461,7 +27607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1891746767}
   - component: {fileID: 1891746768}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (92)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25519,7 +27665,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1892104660}
   - component: {fileID: 1892104661}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25577,7 +27723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1897299611}
   - component: {fileID: 1897299612}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25659,7 +27805,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1899104223}
   - component: {fileID: 1899104224}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25741,7 +27887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1902609764}
   - component: {fileID: 1902609765}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25822,7 +27968,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1909243330}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25854,7 +28000,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1910619748}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25886,7 +28032,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1911577079}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -25991,7 +28137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1911902932}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -26022,7 +28168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1916474764}
   - component: {fileID: 1916474765}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (118)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26080,7 +28226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1918690640}
   - component: {fileID: 1918690641}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26236,7 +28382,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1935625549}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -26267,7 +28413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1940749008}
   - component: {fileID: 1940749009}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26349,7 +28495,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1942782226}
   - component: {fileID: 1942782227}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26411,7 +28557,7 @@ GameObject:
   - component: {fileID: 1952253136}
   - component: {fileID: 1952253135}
   - component: {fileID: 1952253134}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26576,7 +28722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1955141165}
   - component: {fileID: 1955141164}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26635,7 +28781,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1958562732}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26667,7 +28813,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1972131613}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26699,7 +28845,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1972722170}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point1
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -26730,7 +28876,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1975804091}
   - component: {fileID: 1975804092}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26792,7 +28938,7 @@ GameObject:
   - component: {fileID: 1976578654}
   - component: {fileID: 1976578653}
   - component: {fileID: 1976578652}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26957,7 +29103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1984029676}
   - component: {fileID: 1984029675}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27015,7 +29161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1985462891}
   - component: {fileID: 1985462892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27073,7 +29219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2012173056}
   - component: {fileID: 2012173057}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27155,7 +29301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2019539642}
   - component: {fileID: 2019539643}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27203,6 +29349,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5244675, y: 0.19611073}
   m_EdgeRadius: 0
+--- !u!1 &2025637274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2025637275}
+  m_Layer: 8
+  m_Name: Point2
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2025637275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025637274}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.33, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 266784372}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2030114426
 GameObject:
   m_ObjectHideFlags: 0
@@ -27240,9 +29416,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6039b81e0a577e245baeb989c3b99e57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  lives: 3
-  jumpForce: 6
+  speed: 2.5
+  jumpForce: 6.5
+  groundCheck: {fileID: 2052921143}
+  checkRadius: 0.5
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 256
+  extraJumpsValue: 1
 --- !u!50 &2030114428
 Rigidbody2D:
   serializedVersion: 4
@@ -27300,7 +29481,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -15.97, y: -7.21, z: 1}
   m_LocalScale: {x: 2.3638372, y: 2.3638372, z: 2.3638372}
-  m_Children: []
+  m_Children:
+  - {fileID: 2052921143}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27518,7 +29700,11 @@ MonoBehaviour:
   - {fileID: 933387175}
   - {fileID: 1929570509}
   - {fileID: 1275661909}
-  livesRemaining: 4
+  - {fileID: 1638979161}
+  - {fileID: 1691725790}
+  - {fileID: 1651027996}
+  - {fileID: 1630847730}
+  livesRemaining: 8
 --- !u!1 &2030268963
 GameObject:
   m_ObjectHideFlags: 0
@@ -27528,7 +29714,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2030268964}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27561,7 +29747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2040217279}
   - component: {fileID: 2040217280}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (122)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27618,7 +29804,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2047247059}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27650,7 +29836,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2049256953}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27682,7 +29868,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2052086007}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27705,6 +29891,36 @@ Transform:
   m_Father: {fileID: 2030268964}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2052921142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2052921143}
+  m_Layer: 0
+  m_Name: Check Ground
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2052921143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052921142}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.058, y: -0.174, z: -57.795357}
+  m_LocalScale: {x: 0.42304096, y: 0.42304096, z: 0.42304096}
+  m_Children: []
+  m_Father: {fileID: 2030114430}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2062296883
 GameObject:
   m_ObjectHideFlags: 0
@@ -27715,7 +29931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2062296884}
   - component: {fileID: 2062296885}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27797,7 +30013,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2090120573}
   - component: {fileID: 2090120572}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27855,7 +30071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2090275575}
   - component: {fileID: 2090275576}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (91)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27913,7 +30129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2093873308}
   - component: {fileID: 2093873309}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27995,7 +30211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2097559733}
   - component: {fileID: 2097559734}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (100)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28053,7 +30269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2098746254}
   - component: {fileID: 2098746255}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28134,7 +30350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2114536600}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28166,7 +30382,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2117776317}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dragon_Root (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28199,7 +30415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2119423396}
   - component: {fileID: 2119423397}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28257,7 +30473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2119446468}
   - component: {fileID: 2119446469}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NewSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28338,7 +30554,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2126423228}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -28368,7 +30584,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2131569680}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -28398,7 +30614,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2133532211}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point2
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}

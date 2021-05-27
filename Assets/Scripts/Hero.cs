@@ -6,15 +6,20 @@ using UnityEngine.SceneManagement;
 public class Hero : MonoBehaviour
 {
     [SerializeField] private float speed = 3f; // скорость движения
-    [SerializeField] private int lives = 3; // кол-во жизней
     [SerializeField] private float jumpForce = 7f; // сила прыжка
-    private bool isGrounded = false;
+    private bool isGrounded;
+    public Transform groundCheck;
+    public float checkRadius;
+    public LayerMask whatIsGround;
     private Rigidbody2D rb;
     private SpriteRenderer sprite;
+    private int extraJumps;
+    public int extraJumpsValue;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        extraJumps = extraJumpsValue;
         sprite = GetComponentInChildren<SpriteRenderer>();
     }
 
@@ -32,15 +37,32 @@ public class Hero : MonoBehaviour
 
     private void FixedUpdate()
     {
-        CheckGround();
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
+        //CheckGround();
     }
 
     private void Update()
     {
         if (Input.GetButton("Horizontal"))
             Run();
-        if (isGrounded && Input.GetButtonDown("Jump"))
+        //if (isGrounded && Input.GetButtonDown("Jump"))
+        //    Jump();
+
+        if (isGrounded)
+        {
+            extraJumps = extraJumpsValue;
+        }
+
+        if (Input.GetButtonDown("Jump") && extraJumps > 0)
+        {
             Jump();
+            extraJumps--;
+        }
+
+        else if (Input.GetButtonDown("Jump") && extraJumps == 0 && isGrounded)
+        {
+            Jump();
+        }
     }
 
     private void Run()
@@ -57,9 +79,9 @@ public class Hero : MonoBehaviour
         rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
     }
 
-    private void CheckGround()
-    {
-        Collider2D[] collider = Physics2D.OverlapCircleAll(transform.position, 0.3f);
-        isGrounded = collider.Length > 1;
-    }
+    //private void CheckGround()
+    //{
+    //    Collider2D[] collider = Physics2D.OverlapCircleAll(transform.position, 0.3f);
+    //    isGrounded = collider.Length > 1;
+    //}
 }
