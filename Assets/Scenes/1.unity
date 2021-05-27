@@ -1994,6 +1994,10 @@ MonoBehaviour:
   damping: 1.5
   offset: {x: 2, y: 1}
   faceLeft: 0
+  leftLimit: -13
+  rightLimit: 15
+  bottomLimit: 1
+  upperLimit: 100
 --- !u!1 &531432838
 GameObject:
   m_ObjectHideFlags: 0
@@ -6031,6 +6035,10 @@ MonoBehaviour:
   damping: 1.5
   offset: {x: 2, y: 1}
   faceLeft: 0
+  leftLimit: 0
+  rightLimit: 0
+  bottomLimit: 0
+  upperLimit: 0
 --- !u!82 &2030114435
 AudioSource:
   m_ObjectHideFlags: 0

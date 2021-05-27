@@ -10,6 +10,11 @@ public class CameraFollow : MonoBehaviour
     private Transform player;
     private int lastX;
 
+    [SerializeField] float leftLimit;
+    [SerializeField] float rightLimit;
+    [SerializeField] float bottomLimit;
+    [SerializeField] float upperLimit;
+
     void Start()
     {
         offset = new Vector2(Mathf.Abs(offset.x), offset.y);
@@ -51,5 +56,12 @@ public class CameraFollow : MonoBehaviour
             Vector3 currentPosition = Vector3.Lerp(transform.position, target, damping * Time.deltaTime);
             transform.position = currentPosition;
         }
+
+        transform.position = new Vector3
+            (
+            Mathf.Clamp(transform.position.x, leftLimit, rightLimit),
+            Mathf.Clamp(transform.position.y, bottomLimit, upperLimit),
+            transform.position.z
+            );
     }
 }
