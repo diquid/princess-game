@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Hero : MonoBehaviour
 {
-    [SerializeField] private float speed = 3f; // скорость движения
-    [SerializeField] private float jumpForce = 7f; // сила прыжка
+    [SerializeField] private float speed = 3f;
+    [SerializeField] private float jumpForce = 7f;
     private bool isGrounded;
     public Transform groundCheck;
     public float checkRadius;
@@ -34,21 +34,22 @@ public class Hero : MonoBehaviour
         {
             SceneManager.LoadScene("MainMenu");
         }
+        if (collision.gameObject.name == "Rules")
+        {
+            rulesMenuUI.SetActive(true);
+        }
     }
 
     private void FixedUpdate()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
-        //CheckGround();
     }
 
     private void Update()
     {
         if (Input.GetButton("Horizontal"))
             Run();
-        //if (isGrounded && Input.GetButtonDown("Jump"))
-        //    Jump();
-
+        
         if (isGrounded)
         {
             extraJumps = extraJumpsValue;
@@ -78,13 +79,5 @@ public class Hero : MonoBehaviour
     private void Jump()
     {
         rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
-    }
-
-    public void Rules(Collision2D collision)
-    {
-        if (collision.gameObject.name == "Rules")
-        {
-            rulesMenuUI.SetActive(true);
-        }
     }
 }
