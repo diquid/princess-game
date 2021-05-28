@@ -16,6 +16,7 @@ public class Hero : MonoBehaviour
     private int extraJumps;
     public int extraJumpsValue;
     public GameObject rulesMenuUI;
+    public GameObject DieMenuUI;
 
     private void Awake()
     {
@@ -79,5 +80,10 @@ public class Hero : MonoBehaviour
     private void Jump()
     {
         rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+    }
+
+    public void Die()
+    {
+        DieMenuUI.SetActive(true);
     }
 }
