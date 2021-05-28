@@ -27,11 +27,11 @@ public class Hero : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.name == "Castle" && SceneManager.GetActiveScene().buildIndex != 8)
+        if(collision.gameObject.name == "Castle" && SceneManager.GetActiveScene().buildIndex != 7)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-        else if (collision.gameObject.name == "Castle" && SceneManager.GetActiveScene().buildIndex == 8)
+        else if (collision.gameObject.name == "Castle" && SceneManager.GetActiveScene().buildIndex == 7)
         {
             SceneManager.LoadScene("MainMenu");
         }
