@@ -15,6 +15,7 @@ public class Hero : MonoBehaviour
     private SpriteRenderer sprite;
     private int extraJumps;
     public int extraJumpsValue;
+    public GameObject rulesMenuUI;
 
     private void Awake()
     {
@@ -25,13 +26,13 @@ public class Hero : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.name == "Castle" && SceneManager.GetActiveScene().buildIndex != 6)
+        if(collision.gameObject.name == "Castle" && SceneManager.GetActiveScene().buildIndex != 8)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-        else if (collision.gameObject.name == "Castle" && SceneManager.GetActiveScene().buildIndex == 6)
+        else if (collision.gameObject.name == "Castle" && SceneManager.GetActiveScene().buildIndex == 8)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
+            SceneManager.LoadScene("MainMenu");
         }
     }
 
@@ -79,9 +80,11 @@ public class Hero : MonoBehaviour
         rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
     }
 
-    //private void CheckGround()
-    //{
-    //    Collider2D[] collider = Physics2D.OverlapCircleAll(transform.position, 0.3f);
-    //    isGrounded = collider.Length > 1;
-    //}
+    public void Rules(Collision2D collision)
+    {
+        if (collision.gameObject.name == "Rules")
+        {
+            rulesMenuUI.SetActive(true);
+        }
+    }
 }
